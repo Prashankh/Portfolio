@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashankh Mamodia - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #161b22;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #21262d;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #161b22;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 30px;
+            box-shadow: 0px 0px 10px rgba(88, 166, 255, 0.3);
+        }
+        h2 {
+            color: #58a6ff;
+        }
+        a {
+            color: #58a6ff;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #21262d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prashankh Ajit Mamodia</h1>
+        <p>Software Engineer | AI Enthusiast | Web Developer</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Bachelor of Computer Science - Software Engineering (CGPA: 8.6) at SRM Institute of Science and Technology.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>TensorFlow</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Front-End Web Development</li>
+        </ul>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Data Manager (Team Leader) - SRM University</h3>
+        <p>Led a team to develop a database management website, digitizing records and reducing paperwork by 98%.</p>
+        <h3>AI/ML Intern - AICTE</h3>
+        <p>Worked on object detection models, gaining hands-on experience with AI applications.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Helmet and Triple-Riding Detection System</h3>
+        <p>Developed an AI-based system to detect helmet usage and triple-riding on two-wheelers.</p>
+        <h3>Data Management Website for SRM Agricultural College</h3>
+        <p>Built a web platform to digitize attendance, forecasting, and inventory management.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:Prashankhajitmamodia@gmail.com">Prashankhajitmamodia@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919660774932">+91 9660774932</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/prashankh" target="_blank">LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Prashankh" target="_blank">GitHub</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Prashankh Mamodia. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
